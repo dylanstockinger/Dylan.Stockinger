@@ -1,242 +1,221 @@
 body {
-
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-    font-size: 16px;
-    line-height: 1.5;
-
-
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-
 #about {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about p {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+}
+.text {
+  margin: 20px;
 }
 
-
+.text h2 {
+  font-size: 1rem;
+}
+.text p {
+  font-size: 0.9rem;
+}
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 500px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .avatar-container {
-    display: flex;
-    margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
 }
 
 .image {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    filter: grayscale(1);
+  flex: 0 0 auto;
+  margin-right: 20px;
+  margin-bottom: 50px;
+
+  height: 100%;
 }
 
 .image:hover {
-    filter: grayscale(0);
-    width: 110px;
-    height: 110px;
-    transition: 1s ease-in-out;
+  width: 110px;
+  height: 110px;
+  transition: 1s ease-in-out;
 }
 
 .text {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .title {
-    font-size: 24px;
-    font-weight: bold;
-
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .paragraph {
-    font-size: 16px;
-    line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-
+  max-width: 800px;
+  margin: 0 auto;
 }
-
-
 
 img {
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-
-
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-
-
 
 h2 {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 0;
-
-
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-
-
 h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 0;
-    color: white;
-
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  color: white;
 }
 
 h3:hover {
-    text-decoration: underline white;
-    cursor: pointer;
+  text-decoration: underline white;
+  cursor: pointer;
 }
 
 p {
-    margin-top: 0;
-    color: #808080;
-
-
+  margin-top: 0;
+  color: #808080;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#work-experience .job {}
+#work-experience .job {
+}
 
 #work-experience .job:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #work-experience .job h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #work-experience .job p {
-    font-style: italic;
-
+  font-style: italic;
 }
 
 #work-experience .job ul {
-    margin-left: 20px;
-    margin-bottom: 0;
+  margin-left: 20px;
+  margin-bottom: 0;
 }
 
-
-
 #side-projects .project:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #side-projects .project h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #side-projects .project p {
-    font-style: italic;
-
+  font-style: italic;
 }
 
 #side-projects .project p:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-
 .link .project-date {
-    color: #808080;
+  color: #808080;
 }
 
 .section-title {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .experience-desc {
-    float: left;
-    margin: 0;
+  float: left;
+  margin: 0;
 }
 
 .date-container {
-    display: flex;
-    width: 800px;
-    gap: 11px;
+  display: flex;
+  width: 800px;
+  gap: 11px;
 }
 
 .experience-desc li {
-    font-size: 0.8rem;
-    width: 450px;
-    color: #808080;
+  font-size: 0.8rem;
+  width: 450px;
+  color: #808080;
 }
 
 .experience-desc h3 {
-    font-size: 0.9rem;
-    ;
+  font-size: 0.9rem;
 }
 
 .experience-date {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
-
 #links {
-    margin-bottom: 10rem;
-    margin-left: 17px;
-
-
+  margin-bottom: 10rem;
+  margin-left: 17px;
 }
 
 .social-links {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10rem;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  align-items: flex-start;
 
-    /* aligner les éléments à gauche */
+  /* aligner les éléments à gauche */
 }
 
 .social-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
 
-    /* utiliser toute la largeur disponible */
+  /* utiliser toute la largeur disponible */
 }
 
 .social-link h3 {
-
-    min-width: 100px;
-    font-size: 0.8rem;
-    color: #808080;
-    cursor: inherit;
-    text-decoration: none;
-    font-weight: normal;
-    margin-right: 2rem;
-    /* définir une largeur minimale pour le titre */
+  min-width: 100px;
+  font-size: 0.8rem;
+  color: #808080;
+  cursor: inherit;
+  text-decoration: none;
+  font-weight: normal;
+  margin-right: 2rem;
+  /* définir une largeur minimale pour le titre */
 }
 
 .social-link a {
-    margin-bottom: 8px;
-    font-size: 0.8rem;
-    color: white;
-    font-weight: normal;
-    /* définir une largeur minimale pour le titre */
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: normal;
+  /* définir une largeur minimale pour le titre */
 }
